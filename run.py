@@ -8,7 +8,7 @@ from util import *
 batch_size = 32
 img_size = 32
 
-train_loader = get_dataloader(batch_size, img_size)
+train_loader = get_dataloader(batch_size, img_size, 'processed_celeba_small/')
 
 # Define model hyperparams
 d_conv_dim = 32

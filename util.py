@@ -3,7 +3,7 @@ import torch
 from torchvision import datasets
 from torchvision import transforms
 
-def get_dataloader(batch_size, image_size, data_dir='processed_celeba_small/'):
+def get_dataloader(batch_size, image_size, data_dir):
     """
     Batch the neural network data using DataLoader
     :param batch_size: The size of each batch; the number of images in a batch
