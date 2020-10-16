@@ -9,7 +9,7 @@ This network is trained on the image dataset [CelebFaces Attributes Dataset (Cel
 DCGAN consists of a generator and a discriminator, where the two parts are both constructed by convolutional neural networks(CNN). The generator takes in a latent vector z, then construct a fake image through series of deconvolution. The discriminator takes in an image(real and fake), then assign a score to the image to indicate whether or not it thinks the image is real or fake.
 
 ### DCGAN Structure
-<img src='images/DCGAN_pic.png.png' width=80% />
+<img src='images/DCGAN_pic.png' width=80% />
 
 ### File Introduction
 * model.py: The model structure
