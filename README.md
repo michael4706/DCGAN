@@ -23,8 +23,7 @@ DCGAN consists of a generator and a discriminator, where the two parts are both 
 ### Loss over 20 epochs
 <img src='images/loss.png' width=80% />
 
-
-### sample generated images
+### Generated image samples
 <img src='images/generated_samples.png' width=80% />
 
 ### Special Thanks to Udacity deep learning Nanodegree Program
